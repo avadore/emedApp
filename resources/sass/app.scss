@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import "./variables";
+
+@mixin properCentered {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn-register{
+    height: content-box;
+    width: fit-content;
+    background-color: dodgerblue !important;
+    padding: 6px;
+}
+
+.H5{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: $seccolor;      
+    
+}
+@mixin shadow {
+    -webkit-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75)
+}
+
+.label-personnel>span{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: rgba(9, 58, 91, 0.29);
+}
+.choosen{
+    font-family: "Oswald", sans-serif;
+    font-size: 25px !important;
+    padding: 5px;
+    color: #8b1e1d !important;
+    text-shadow: #a12e2e;
+    text-decoration:underline;
+}
+.doctorchoosen{
+    font-family: "Oswald", sans-serif;
+    font-size: 25px !important;
+    padding: 5px;
+    color: #1a519a !important;
+    text-shadow: #0D47A1 ;
+    text-decoration:underline;
+}
+.form-header{
+    background-color:$deepcolor;
+    height: 50px;
+    width: 200px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    border-radius: 10px;
+    @include shadow();
+    
+    
+}
+.formcontainer{
+   @include properCentered()
+}
+
+.form {    
+    max-width: 480px !important;
+    padding: 40px !important;
+    @include shadow();
+  }
+  input {
+    border: solid #0250998f 1px !important;
+    border-radius: 5px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 350px !important;
+  }
+  .input-field{
+      width: fit-content !important;
+  }
