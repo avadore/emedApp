@@ -1,4 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:700&display=swap);.btn-register {
+@import url(https://fonts.googleapis.com/css?family=Oswald:700&display=swap);.modal-content {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.btn-register {
   height: content-box;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -82,5 +92,15 @@ input {
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
   width: fit-content !important;
+}
+
+.btnCenter {
+  float: center !important;
+}
+
+.btn {
+  background-color: #094683 !important;
+  color: aliceblue !important;
+  font-family: "Oswald";
 }
 

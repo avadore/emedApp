@@ -7,6 +7,16 @@
     align-items: center;
     height: 100vh;
 }
+
+@mixin shadow {
+-webkit-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75)
+}
+
+.modal-content{
+@include properCentered()    
+}
 .btn-register{
     height: content-box;
     width: fit-content;
@@ -19,11 +29,6 @@
     font-family: 'Oswald', sans-serif;
     color: $seccolor;      
     
-}
-@mixin shadow {
-    -webkit-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
-box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75)
 }
 
 .label-personnel>span{
@@ -80,4 +85,15 @@ box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75)
   }
   .input-field{
       width: fit-content !important;
+  }
+
+  .btnCenter{
+      float:center !important;
+  }
+
+  .btn{
+      background-color: #094683 !important;
+      color: aliceblue !important;
+      font-family: 'Oswald';
+     
   }

@@ -20,6 +20,7 @@ class CreateCertifiedDoctorsTable extends Migration
             $table->string('folioNo');
             $table->string('registerNo');
             $table->string('specialization_1');
+            $table->string('gender');
             $table->timestamps();
         });
     }
