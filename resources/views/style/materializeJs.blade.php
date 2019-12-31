@@ -3,5 +3,7 @@
 <script src="{{ asset('modalcss/js/jquery.min.js') }}" defer></script>
 <script src="{{ asset('modalcss/js/animatedModal.js') }}" defer></script>
 <script src="{{ asset('myscripts.js') }}" defer></script>
+<script src="{{ asset('sweetalert2.js') }}" defer></script>
+<script src="{{ asset('cd/js/main.js') }}" defer></script>
 
 
